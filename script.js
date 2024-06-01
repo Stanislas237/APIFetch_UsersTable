@@ -24,11 +24,6 @@ async function RecupererNoms (){
     })
 }
 
-function AfficherSpinner(test){
-    table.style.display = test ? "none" : "table"
-    spinner.style.display = test ? "block" : "none"
-    publi.style.alignItems = test ? "center" : "baseline"
-}
 
 async function afficherPub(e){
     if (selected === e.target) return
